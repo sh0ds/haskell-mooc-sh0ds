@@ -1,0 +1,9 @@
+{
+  "name": "haskell-mooc",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "hostRequirements": { "cpus": 4 },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": { "extensions": ["haskell.haskell"] }
+  }
+}
